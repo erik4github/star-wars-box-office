@@ -24,9 +24,6 @@ const incrementalSums = (dailySums, emptyArray) => dailySums.reduce((previousVal
     return sum;
 }, 0);
 
-// pushing currentvalue gets the individual days
-// although stringsToNumbers would also be the individual days?
-
 const parseData = (data) => {
     const arrayToChart = [];
     const alignedBoxOfficeNumbers = slicer(data, shortest).map(stringsToNumbers);
