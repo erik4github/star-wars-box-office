@@ -71,8 +71,6 @@ document.addEventListener('DOMContentLoaded', function () {
         borderWidth: 1
     }
 
-    console.log(chartData);
-
     const myChart = new Chart(ctx, {
         type: 'line',
         data: chartData,
